@@ -63,7 +63,7 @@
     /**
      User-Agent: Mozilla/5.0 (Linux; U; Android 4.3; en-us; Nexus 7 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 MicroMessenger/5.0.351
      */
-//    [request addValue:@"Mozilla/5.0 (Linux; U; Android 4.3; en-us; Nexus 7 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 MicroMessenger/5.0.351" forHTTPHeaderField:@"User-Agent"];
+    [request addValue:@"Mozilla/5.0 (Linux; U; Android 4.3; en-us; Nexus 7 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 MicroMessenger/5.0.351" forHTTPHeaderField:@"User-Agent"];
     [self.webView loadRequest:request];
 }
 
